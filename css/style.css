@@ -59,9 +59,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #646464;
+  color: #fff;
   text-align: left;
-  background-color: #F2F2F2;
+  background-color: black;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -1807,6 +1807,7 @@ pre code {
 
   .name-heading {
     margin-top: 22%!important;
+    color: #fff!important;
   }
 
 
@@ -5456,6 +5457,7 @@ body.modal-open .container{
   width: 100%;
   pointer-events: auto;
   background-color: #333;
+  opacity: 0.75;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   outline: 0;
