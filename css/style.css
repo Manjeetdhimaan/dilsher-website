@@ -1796,7 +1796,7 @@ pre code {
 
   .social-links {
     position: fixed;
-    bottom: 80px;
+    bottom: 75px;
     left: 50%;
     transform: translate(-50%, 0);
   }
@@ -1824,7 +1824,12 @@ pre code {
     border: 0;
   }
   .img-fluid {
-    max-width: 85%;
+    max-width: 70%;
+  }
+
+  .name-heading {
+    margin-top: 14%!important;
+    color: #fff!important;
   }
 }
 
@@ -9756,6 +9761,6 @@ h4, h5, h6 {
   list-style-type: none;
 }
 
-.justify-content-center h4,  .justify-content-center h5, .justify-content-center a{
+.justify-content-center h4,  .justify-content-center h5, .modal-body a{
   color:black;
 }
